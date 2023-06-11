@@ -24,6 +24,10 @@ a {
     z-index: 100;
 }
 
+.lista-sm {
+    display: block;
+}
+
 #navbar li {
     float: left;
 }
@@ -140,5 +144,21 @@ a {
     }
     #content footer {
         width: auto;
+    }
+    .lista-sm {
+        display: none;
+    }
+    #navbar li {
+        float: none;
+        display: block;
+    }
+    #navbar li a {
+        padding: 5px;
+        text-align: left;
+        width: 100%;
+    }
+    .myicono {
+        display: block;
+        text-align: right;
     }
 }
