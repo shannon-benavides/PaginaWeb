@@ -95,6 +95,14 @@ a {
     padding: 25px;
 }
 
+#nefi {
+    clear: both;
+    width: 100%;
+    background-color: rgb(76, 72, 72);
+    height: 100px;
+    padding: 25px;
+}
+
 @media screen and (max-width: 820px) {
     #content {
         padding: 0;
