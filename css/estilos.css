@@ -1,0 +1,144 @@
+body {
+    background: #eee;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    background-color: rgb(76, 72, 72);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: aliceblue;
+}
+
+#navbar li a:hover {
+    background-color: coral;
+    color: #000;
+}
+
+.myicono {
+    color: aliceblue;
+    font-size: 1.5em;
+    padding: 10px;
+    display: none;
+}
+
+#content {
+    max-width: 1180px;
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2%;
+}
+
+#content header {
+    height: 120px;
+    padding: 10px 20px;
+    background-color: #ddd;
+    border-radius: 1em;
+}
+
+#principal {
+    width: 40%;
+    float: left;
+    padding: 5px;
+}
+
+#secundario {
+    width: 40%;
+    float: left;
+    padding: 5px;
+}
+
+#content aside {
+    width: 20%;
+    float: left;
+    padding: 5px;
+}
+
+#content footer {
+    clear: both;
+    width: 100%;
+    background-color: #ddd;
+    height: 100px;
+    padding: 25px;
+}
+
+@media screen and (max-width: 820px) {
+    #content {
+        padding: 0;
+        max-width: 100%;
+    }
+    #content header {
+        padding: 0;
+        border-radius: 0;
+    }
+    #principal {
+        padding: 3%;
+        width: 45%;
+    }
+    #secundario {
+        float: right;
+        padding: 3%;
+        width: 45%;
+    }
+    #content aside {
+        clear: both;
+        padding: 5%;
+        width: 100%;
+    }
+    #content footer {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #content {
+        width: auto;
+    }
+    #principal {
+        width: auto;
+        float: none;
+        margin: 0px;
+    }
+    #secundario {
+        width: auto;
+        float: none;
+        margin: 0px;
+    }
+    #content aside {
+        padding: 0;
+        width: auto;
+    }
+    #content footer {
+        width: auto;
+    }
+}
