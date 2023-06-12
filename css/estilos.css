@@ -78,6 +78,19 @@ a {
     float: left;
     padding: 5px;
 }
+#catalogo {
+    width: 80%;
+    float: left;
+    padding: 5px;
+}
+
+#catalogo h3 {
+    text-align: left;
+
+}
+#catalogo h3 p {
+    text-align: left;
+}
 
 #secundario {
     width: 40%;
