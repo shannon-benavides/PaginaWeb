@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 body {
     background: #eee;
     color: #333;
-    font-family: 'Playfair Display', serif;
 }
 
 a {
@@ -95,7 +93,7 @@ a {
     clear: both;
     width: 100%;
     background-color: #ddd;
-    height: 100px;
+    height: 150px;
     padding: 25px;
 }
 
