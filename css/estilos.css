@@ -40,6 +40,13 @@ a {
     text-align: center;
     color: aliceblue;
 }
+#carousel{
+    width: 40%;
+    justify-content: center;
+  align-items: center;
+
+}
+
 #navbar li.active a {
     color: red;
 }
