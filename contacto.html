@@ -12,6 +12,7 @@
           document.getElementById("nombre").value = ""; // Limpia el campo de nombre
           document.getElementById("apellido").value = "";
           document.getElementById("floatingTextarea2").value = "";
+          document.getElementById("correo").value = "";
         }
       </script>
     <title>Contacto</title>
@@ -39,7 +40,7 @@
         <header>
             <h1 align="center" >Contacto</h1>
         </header>
-
+<!-- Formulario-->
         <section id="contactoform">
             <form>
                 <br><br>
@@ -47,6 +48,9 @@
                 <input type="text" id="nombre" class="form-control"><br><br>
                 Apellido
                 <input type="text" id="apellido" class="form-control"><br><br>
+                Correo electrónico
+                <input type="text" id="correo" class="form-control"><br><br>
+
                 Productos
                 <select class="form-select" aria-label="Default select example">
                     <option selected>Selecciona tu producto</option>
@@ -68,7 +72,7 @@
                     <label for="floatingTextarea2">Escribe aquí tus comentarios</label>
                   </div>
                   <br><br>
-
+<!-- Boton para limpiar formulario-->
                   <button type="button"  class="btn btn-primary" onclick="limpiarCampos()">Limpiar Campos</button>
                   <button type="submit" class="btn btn-primary">Enviar</button>
 
